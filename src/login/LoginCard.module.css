@@ -1,0 +1,94 @@
+.input {
+  margin-top: 10px;
+  width: 85%;
+  height: 35px;
+  border-radius: 5px;
+
+  padding: 5px;
+  font-size: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #c4c6ca;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.input:focus {
+  outline: none !important;
+  border-color: #1877f2;
+}
+input:focus::-webkit-input-placeholder {
+  color: #abafb4;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  text-align: center;
+  height: 100%;
+}
+
+.card {
+  height: 380px;
+  margin-left: 30%;
+  width: 400px;
+}
+
+.signButton {
+  margin-top: 15px;
+  padding: 9px;
+  width: 94%;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 7px;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 600;
+}
+.signButton:hover {
+  background-color: #0c70f3;
+}
+.forgot {
+  color: #1877f2;
+  margin-top: 15px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #1877f2;
+}
+.line {
+  margin: 20px;
+  width: 90%;
+  height: 1px;
+  display: flex;
+  background-color: #abafb4;
+  align-self: center;
+}
+.regButton {
+  margin-top: 10px;
+  padding: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 25px;
+
+  width: auto;
+  background-color: #42b72a;
+  border: none;
+  border-radius: 7px;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-weight: 600;
+}
+.regButton:hover {
+  background-color: #2db313;
+}
+.error {
+  color: red;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 5px;
+  font-size: 14px;
+}

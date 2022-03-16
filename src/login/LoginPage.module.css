@@ -1,0 +1,43 @@
+.bodycontainer {
+  display: flex;
+  flex-direction: row;
+}
+h5 {
+  display: inline;
+}
+.span {
+  font-size: 15px;
+}
+.underform {
+  margin-top: 25px;
+  text-align: center;
+}
+.centre {
+  width: 1000px;
+}
+.parentcentre {
+  height: 450px;
+  padding-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 210px;
+}
+.logo {
+  width: 280px;
+  height: 55px;
+  display: block;
+}
+.undertext {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.containlogotext {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  width: 55%;
+  margin-right: 45px;
+}

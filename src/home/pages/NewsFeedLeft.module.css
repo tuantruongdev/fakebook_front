@@ -1,0 +1,54 @@
+.container {
+  position: relative;
+  width: 100%;
+  background-color: none;
+  height: 100%;
+  display: grid;
+  margin-top: 56px;
+}
+ul {
+  padding: 0px;
+  padding-left: 10px;
+}
+li {
+  border-radius: 10px;
+  padding-left: 0;
+  width: 90%;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+li:hover {
+  background-color: #cecdcd7a;
+  cursor: pointer;
+}
+.profile {
+  margin-top: 10px;
+}
+.fullname {
+  margin-left: 12px;
+  height: fit-content;
+  justify-content: center;
+  color: #050505;
+  font-weight: 500;
+}
+.avt {
+  height: 39px;
+  width: 39px;
+  border-radius: 100%;
+}
+.flatbtn {
+  background-color: #b4b4b441;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.svgscale {
+  width: 20px;
+  height: 20px;
+}
