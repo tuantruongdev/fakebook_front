@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./MainFeed.module.css";
+import CreatePost from "./newsfeed/CreatePost";
 import Story from "./newsfeed/Story";
 import Post from "./Post";
 export default function MainFeed() {
@@ -13,6 +14,7 @@ export default function MainFeed() {
           <Story url="https://images.unsplash.com/photo-1647336399635-71872d9ae16f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
           <Story url="https://images.unsplash.com/photo-1647314877456-e3a7c17e5ef0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
         </div>
+        <CreatePost />
         <Post />
         <Post />
         <Post />

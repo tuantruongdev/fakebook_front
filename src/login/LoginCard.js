@@ -48,6 +48,10 @@ export default function LoginCard(props) {
       if (fetchLogin.status === "success") {
         console.log("login thành công với token:\n" + fetchLogin.token);
         await localStorage.setItem("token", "Bearer " + fetchLogin.token);
+        await localStorage.setItem("firstName", fetchLogin.firstName);
+        await localStorage.setItem("lastName", fetchLogin.lastName);
+        await localStorage.setItem("imageUrl", fetchLogin.imageUrl);
+
         //   window.location.replace("http://127.0.0.1:5500/public/index.html");
         var redir = props.onlogin;
         redir("Bearer " + fetchLogin.token);

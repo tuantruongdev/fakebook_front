@@ -11,6 +11,9 @@ function App() {
   };
   const logoutHandler = () => {
     localStorage.removeItem("token");
+    localStorage.removeItem("firstName");
+    localStorage.removeItem("lastName");
+    localStorage.removeItem("imageUrl");
     setIsLoggedIn(null);
   };
 

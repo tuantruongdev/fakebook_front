@@ -72,6 +72,9 @@ export default function SignUp(props) {
     if (fetchSignUp.status === "success") {
       console.log("signup thành công với token:\n" + fetchSignUp.token);
       await localStorage.setItem("token", "Bearer " + fetchSignUp.token);
+      await localStorage.setItem("firstName", fetchSignUp.firstName);
+      await localStorage.setItem("lastName", fetchSignUp.lastName);
+      await localStorage.setItem("imageUrl", fetchSignUp.imageUrl);
       //   window.location.replace("http://127.0.0.1:5500/public/index.html");
       var redir = props.onlogin;
       redir("Bearer " + fetchSignUp.token);
